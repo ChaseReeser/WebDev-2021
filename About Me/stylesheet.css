@@ -1,4 +1,4 @@
-/* 
+/*
 Author: Chase Reeser
 Title: About Me CSS
 Date: 08/26/2021
@@ -37,11 +37,27 @@ video{
 	display: block;
 	margin: auto;
 }
-
-
-
-
-
-
-
-	
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: thin solid rgba(127,96,17,1.50);
+	border-collapse: collapse;
+}
+nav ul li a {
+	margin-bottom: 0;
+}
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
