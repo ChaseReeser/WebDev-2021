@@ -1,0 +1,101 @@
+/*
+Author: Chase Reeser
+Date: 9/23/2021
+Title: Exam
+*/
+/*Structural Styles */
+* {
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: #226666;
+  text-align: center;
+}
+
+div {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+h2 {
+  font-size: 0.85em;
+}
+
+p {
+  line-height: 25px;
+  text-align: left;
+}
+
+/*Header Rules */
+header {
+  border-bottom: 2px black double;
+  box-shadow: 0px 3px 5px white;
+}
+
+h1 {
+  font-family: 'Koh Santepheap', cursive;
+}
+
+/* Navigation Styles */
+nav {
+  text-align: center;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a:hover {
+  background-color: #669999;
+  color: white;
+}
+
+li a:visited {
+  background-color: #003333;
+  color: white;
+}
+
+/*Footer Styles*/
+p {
+  text-align: center;
+  font: bold;
+}
+
+footer {
+  background-color: #669999;
+  border-top: 1px black double;
+  border-bottom: 1px black double;
+  margin-top: 15px;
+}
+
+/*Section Styles */
+section{
+  padding-top: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  border-top: 1px black;
+  background-color: #0D4D4D;
+  text-align: left;
+}
+
+.even{
+  color: #669999;
+}
+
+.odd{
+  background-color: #669999;
+}
