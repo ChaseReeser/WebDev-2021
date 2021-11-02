@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {background-color: pink; color: white;}
+nav {background-color: black}
+.fas {display: none}
+li {padding: 5px; display: inline-block;}
+li:hover {background-color: grey}
+.hula{background-color: purple; width: 600px;}
+
+@media screen and (max-width: 992px) {
+  li {
+    display: block
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fas {
+    display: block;
+    padding: 15px
+  }
+
+  .dropdown-box {
+    display: none;
+    width: 15%;
+    background-color: lightgreen;
+    box-shadow: 5px 5px 5px darkgreen;
+    margin-left: 25px;
+  }
+
+  nav:hover .dropdown-box {display: block}
+
+  .hula {width: 200px;}
+}

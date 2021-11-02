@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: pink;
+  color: white;
+}
+
+nav {
+  background-color: black;
+}
+
+.fas {
+  padding: 15px;
+}
+
+li {
+  list-style: none;
+  padding: 5px;
+}
+
+nav:hover .dropdown-box {
+  display: block;
+}
+
+.dropdown-box {
+  display: none;
+  width: 15%;
+  background-color: lightgreen;
+  box-shadow: 5px 5px 5px grey;
+  margin-left: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .fas {
+    display: none;
+  }
+
+  .dropdown-box {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  li:hover {
+    background-color: grey;
+  }
+}
+
+@media screen and (min-width:992px) {
+  li {
+    display: inline-block;
+  }
+}
